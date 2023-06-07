@@ -17,7 +17,7 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  border-radius: 20px;
+  border-radius: 9px;
 }
 .box .username,
 .box .password {
@@ -32,4 +32,26 @@ body {
   outline: none;
   color: white;
   border-radius: 30px;
+}
+.box h1 {
+  color: white;
+  font-weight: 600px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.box .sub {
+  border: 0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  padding: 15px 45px;
+  border: 2px solid white;
+  outline: none;
+  color: white;
+  border-radius: 30px;
+}
+.box .sub:hover {
+  background-color: rgb(61, 141, 222);
+  border: 2px solid #2b3c78;
+  transition: 0.3s;
 }
